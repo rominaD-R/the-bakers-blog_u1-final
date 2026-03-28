@@ -1,10 +1,11 @@
 import { Routes, Route } from 'react-router';
+import FeaturedHero from '../components/FeaturedHero';
 
 function Home() {
 
     return (
         <div>
-            <h2>Home page</h2>
+            <FeaturedHero />
         </div>
     )
 }

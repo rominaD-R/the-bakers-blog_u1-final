@@ -1,4 +1,5 @@
 import React from 'react'
+import './css/FeaturedHero.css'
 
 export default function FeaturedHero() {
   return (
