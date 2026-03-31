@@ -2,7 +2,7 @@
 [build]
   base = "bakers-blog"
   command = "npm run build"
-  publish = "bakers-blog/dist"
+  publish = "dist"
   functions = "netlify/functions"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
