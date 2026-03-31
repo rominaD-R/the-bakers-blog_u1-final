@@ -8,8 +8,8 @@ function Home() {
         <div>
             <FeaturedHero />
             <div className='text-cont'>
-                <h2>All Time Favorites</h2>
-                <CardsRow />
+                <CardsRow heading={"All Time Favorites"}/>
+                <CardsRow heading={"New Recipes"} />
             </div>
         </div>
     )
