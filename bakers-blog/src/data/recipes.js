@@ -1,5 +1,6 @@
 export const recipeMockData = [
     {
+        id: 1,
         title: "Moist Chocolate Muffins",
         mainImage: "https://www.allrecipes.com/thmb/m7IoQUlfO4p1OYm-jamwwJjpY_Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/228553-moist-chocolate-muffins-DDMFS-4x3-a9f73a46938547c99d921613dc167741.jpg",
         ingredients: [
@@ -37,6 +38,7 @@ export const recipeMockData = [
             "Beginner Friendly"
         ]
     }, {
+        id: 2,
         title: "Pizza Margarita",
         mainImage: "https://images.unsplash.com/photo-1716237388704-941721c1dbbf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         ingredients: [
@@ -82,6 +84,7 @@ export const recipeMockData = [
             "Pizza"
         ]
     }, {
+        id: 3,
         title: "Lemon Bars",
         mainImage: "https://www.allrecipes.com/thmb/9rW0tBgO35EwBSVkstIEuZ2FlVc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/1662481908IMG_2020_Chef-Johns-Lemon-Bars-4x3-37cd9e7a6a144c95815e54b82a547f7b.jpg",
         ingredients: [
@@ -118,6 +121,7 @@ export const recipeMockData = [
             "Beginner Friendly"
         ]
     }, {
+        id: 4,
         title: "Healthy Berry Streusel Bars",
         mainImage: "https://sallysbakingaddiction.com/wp-content/uploads/2014/07/healthy-berry-oat-streusel-bars-3.jpg",
         ingredients: [
@@ -150,6 +154,7 @@ export const recipeMockData = [
             "Fruity"
         ]
     }, {
+        id: 5,
         title: "Allergy-Friendly Fudgy Mint Brownies",
         mainImage: "https://www.allergicliving.com/wp-content/uploads/2024/03/Mint-Brownies-Stacked-2.jpg",
         ingredients: [
@@ -187,6 +192,7 @@ export const recipeMockData = [
             "Nut Free"
         ]
     }, {
+        id: 6,
         title: "Vegan Peach Pie",
         mainImage: "https://www.thespruceeats.com/thmb/s16fgWDpGBER64khGpiZGch8mp0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peachpie-GettyImages-90042304-59b21b8faad52b0011c3855c.jpg",
         ingredients: [
@@ -209,6 +215,7 @@ export const recipeMockData = [
             "Nut Free"
         ]
     }, {
+        id: 7,
         title: "9-Free Pumpkin Scones",
         mainImage: "https://www.allergicliving.com/wp-content/uploads/2022/11/pumpkin.scones.drip_.5x7-731x1024-1.jpg",
         ingredients: [
@@ -231,6 +238,7 @@ export const recipeMockData = [
             "Nut Free"
         ]
     }, {
+        id: 8,
         title: "Tiramisu Cheesecake",
         mainImage: "https://www.allrecipes.com/thmb/C3aI3bzyEP1gTsFbQM8bsDaeKXc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/514088-tiramisu-cheesecake-chibi-chef-1x1-1-457fe39663864f40963ce7d1d354b57d.jpg",
         ingredients: [

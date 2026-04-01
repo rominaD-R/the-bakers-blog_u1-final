@@ -39,3 +39,7 @@ img {
         flex-direction: column;
     }
 }
+
+.link-recipe {
+    all: unset;
+}
