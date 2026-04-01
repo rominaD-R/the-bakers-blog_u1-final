@@ -8,6 +8,10 @@
     align-content: center;
 }
 
+.navbar div {
+    align-content: center;
+}
+
 .navbar h1 {
     margin: 0;
     padding: 0;
@@ -17,6 +21,8 @@
 
 .navbar a {
     color: hsl(45, 100%, 96%);   
+    align-self: center;
+    text-decoration: none;
 }
 
 .nav-links {
