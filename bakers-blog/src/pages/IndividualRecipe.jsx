@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams, Link } from 'react-router';
 import { recipeMockData } from '../data/recipes'
+import './IndividualRecipe.css'
 
 export default function IndividualRecipe() {
 
@@ -12,8 +13,43 @@ export default function IndividualRecipe() {
     console.log(currentRecipe);
 
     return (
-        <div>
+        <div className='text-cont individual-recipe-page'>
             <h2>{currentRecipe.title}</h2>
+            <div className='main-img'>
+                <img src={currentRecipe.mainImage} alt={currentRecipe.title} />
+            </div>
+            <div className='two-col'>
+                <div>
+                    <h4>Ingredients</h4>
+                    <ul>
+                        {currentRecipe.ingredients.map((item) => <li>{item}</li>)}
+                    </ul>
+                </div>
+                <div>
+                    <h4>Utensils</h4>
+                    <ul>
+                        {currentRecipe.utensils.map((item) => <li>{item}</li>)}
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h4>Steps</h4>
+                <ol>
+                    {currentRecipe.steps.map((item) => <li>{item}</li>)}
+                </ol>
+            </div>
+            <div className='comments-section'>
+                <hr />
+                <h4>Comments</h4>
+                {currentRecipe.comments.map((comment) => <div className='comment'>{comment}</div>)}
+                <form id='commentForm' action="">
+                    <b>Add your comment!</b>
+                    <div>
+                        <textarea name="comment" id="commentText"></textarea>
+                        <button id='submitComment'>Post Comment</button>
+                    </div>                    
+                </form>
+            </div>
         </div>
     )
 }

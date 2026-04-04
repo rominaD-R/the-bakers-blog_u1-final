@@ -1,4 +1,5 @@
 import React from 'react'
+import { useParams, Link } from 'react-router';
 import './css/FeaturedHero.css'
 
 export default function FeaturedHero() {
@@ -14,7 +15,7 @@ export default function FeaturedHero() {
                   kitchen, with a standard oven, with normal everyday ingredients (no fancy flours required), and without preparing an 
                   incredibly time-intensive pizza dough days in advance.
                   </p>
-                <button>See Full Recipe</button>
+                <Link to={`recipe/${2}`}><button>See Full Recipe</button></Link>
               </div>
             </div>
         </div>

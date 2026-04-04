@@ -196,16 +196,32 @@ export const recipeMockData = [
         title: "Vegan Peach Pie",
         mainImage: "https://www.thespruceeats.com/thmb/s16fgWDpGBER64khGpiZGch8mp0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/Peachpie-GettyImages-90042304-59b21b8faad52b0011c3855c.jpg",
         ingredients: [
-            "1 cup all-purpose flour",
-            "½ cup unsalted butter at room temperature",
+            "1 dairy-free pie crust",
+            "5½ cups peeled fresh peach slices",
+            "1 teaspoon lemon juice",
+            "1/3 cup all-purpose flour",
+            "3/4 cup unrefined cane sugar, or white granulated sugar, plus more for sprinkling",
+            "1/2 teaspoon cinnamon",
+            "1/4 teaspoon salt",
+            "2 tablespoons unsweetened soy milk, for brushing"
         ],
         utensils: [
-            "8x8-inch pan",
-            "Spatula or wooden spoon",
-            "Fork"
+            "9-inch pie pan",
+            "Flour Sifter",
+            "Pastry Brush"
         ],
         steps: [
-            "Set an oven rack to the middle position and preheat the oven to 350 degrees F (175 degrees C). Lightly grease an 8x8-inch baking dish.",
+            "Gather the ingredients.",
+            "Lightly grease a 9-inch pie plate with soy margarine or any plant-based vegan margarine.",
+            "Roll out half of the pie dough, and fit into the pie plate. Using your fingers, create a crust around the edge. Place the pie plate, uncovered, in the freezer for 15 minutes.",
+            "Preheat the oven to 400 F. Place the peaches in a large mixing bowl, and toss with the lemon juice.",
+            "In another small bowl, sift together the flour, sugar, cinnamon, and salt.",
+            "Toss over the peaches and mix gently until evenly incorporated.",
+            "Pour the mixture into the prepared pie crust.",
+            "Roll out the remaining pie dough and fit over the top of the pie, folding the edges under. Using your fingers or a fork, flute the edges to seal.",
+            "Lightly brush the top crust with soy milk and sprinkle with sugar.",
+            "Bake for 10 minutes, then turn down the heat to 350 F and bake for 30 to 35 minutes more.",
+            "Allow the pie to cool on a wire cooling rack. Serve warm or cold."
         ],
         comments: [
             "So glad there's a gluten free recipe here.",
@@ -219,8 +235,19 @@ export const recipeMockData = [
         title: "9-Free Pumpkin Scones",
         mainImage: "https://www.allergicliving.com/wp-content/uploads/2022/11/pumpkin.scones.drip_.5x7-731x1024-1.jpg",
         ingredients: [
-            "1 cup all-purpose flour",
-            "½ cup unsalted butter at room temperature",
+            "2 cups gluten-free flour blend (if no xathan gum in blend, add 1 tsp)",
+            "½ cup sugar",
+            "1 tbsp baking powder",
+            "1/2 tsp salt",
+            "1 1/2 tsp pumpkin spice",
+            "6 tbsp coconut oil, chilled (see Recipe Tips)",
+            "3/4 cup pumpkin puree",
+            "3 tbsp rice milk",
+            "1 tsp vanilla",
+            "1/2 cup powdered (confectioners’) sugar",
+            "2-3 tsp rice milk",
+            "1/2 tsp ground cinnamon",
+            "1/4 tsp pumpkin spice"
         ],
         utensils: [
             "8x8-inch pan",
@@ -228,7 +255,14 @@ export const recipeMockData = [
             "Fork"
         ],
         steps: [
-            "Set an oven rack to the middle position and preheat the oven to 350 degrees F (175 degrees C). Lightly grease an 8x8-inch baking dish.",
+            "Preheat your oven to 425 degrees F. Line a baking sheet with parchment paper.",
+            "In a large bowl, whisk the flour blend, sugar, baking powder, salt and pumpkin spice, until all are combined.",
+            "Remove chilled coconut oil from refrigerator and place into the mixture. Using a fork or pastry blender, work the coconut oil into the mixture. It should be incorporated enough that it looks like crumbly sand – but don’t over-mix it. (See the video.)",
+            "Now, add the pumpkin puree, rice milk and vanilla. Using a spatula, fold everything together. The dough will feel a little bit dry and sticky. Also, it’s OK if it’s not perfectly mixed.",
+            "Drop the dough onto a lightly floured (with more gluten-free flour) workspace. Shape it into a large circle, about 8 to 9 inches in diameter. Using a pizza cutter, cut the dough into 8 slices. As shown in the video, place the slices on the baking sheet lined with parchment paper. Make sure the slices are not touching each other.",
+            "Bake 14-16 minutes until the scones are light brown. Remove from the oven and allow them to cool on a wire rack.",
+            "For glaze: As the scones bake, prepare the glaze. In a medium bowl, whisk together powdered sugar, milk (start with just 1 teaspoon), and spices. Add more milk, as needed, while whisking, until you reach the desired consistency. (I prefer a thicker glaze.)",
+            "Once the scones have cooled, drizzle with glaze. Serve and enjoy."
         ],
         comments: [
             "So glad there's a gluten free recipe here.",
@@ -255,12 +289,18 @@ export const recipeMockData = [
             "¼ ounce semisweet chocolate"
         ],
         utensils: [
-            "8x8-inch pan",
-            "Spatula or wooden spoon",
-            "Fork"
+            "9-inch springform pan",
+            "Electric mixer or whisk",
         ],
         steps: [
-            "Set an oven rack to the middle position and preheat the oven to 350 degrees F (175 degrees C). Lightly grease an 8x8-inch baking dish.",
+            "Preheat the oven to 350 degrees F (175 degrees C). Place a pan of water on the lowest oven rack.",
+            "To make the crust: Crush ladyfingers into fine crumbs. Place crumbs into a bowl with melted butter and coffee-flavored liqueur; stir until evenly combined. Press into the bottom of a 9-inch springform pan.",
+            "To make the filling: Beat cream cheese, mascarpone cheese, and sugar in a large bowl with an electric mixer until very smooth, 2 to 3 minutes. Scrape down the sides of the bowl and mix in coffee-flavored liqueur. Add flour and eggs; mix on low speed just until smooth. If batter seems too thick, mix in heavy cream. Pour batter over the crust.",
+            "Bake on the center rack of the preheated oven until just set, 40 to 45 minutes.",
+            "Open the oven door, turn off the heat, and leave cheesecake to cool on the center rack for 20 minutes.",
+            "Remove from the oven, transfer to a wire rack to cool completely, about 30 more minutes.",
+            "Refrigerate for at least 3 hours, or overnight.",
+            "Just before serving, grate semisweet chocolate over the top."
         ],
         comments: [
             "So glad there's a gluten free recipe here.",
