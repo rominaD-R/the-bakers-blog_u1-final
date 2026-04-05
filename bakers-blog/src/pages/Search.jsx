@@ -7,12 +7,24 @@ import { recipeMockData } from '../data/recipes'
 function Search() {
 
     const [results, setResults] = useState([...recipeMockData]);
+    const [search, setSearch] = useState('');
+
+    const returnResults = (e) => {
+        console.log("SEARCHING:  " + search);
+        let { value } = e.target;
+        setSearch(value);
+        let actualResults = recipeMockData.filter((recipe) => recipe.title.toLowerCase().includes(search) == true);
+        if (search == '') {
+            actualResults = recipeMockData;
+        }
+        setResults(actualResults);
+    };
 
     return (
         <div className='text-cont'>
             <h2>Search Page</h2>
             <div>
-                <input type="text" name="search" id="searchbar" placeholder='Search by title...' />
+                <input type="text" name="search" id="searchbar" placeholder='Search by title...' value={search} onChange={returnResults} />
             </div>
             <div className='search-bottom'>
                 <div className='filters'>
