@@ -14,15 +14,15 @@ function Search() {
         let { value } = e.target;
         setSearch(value);
         let actualResults = recipeMockData.filter((recipe) => recipe.title.toLowerCase().includes(search) == true);
-        if (search == '') {
+        if (value == '') {
             actualResults = recipeMockData;
         }
         setResults(actualResults);
     };
 
     return (
-        <div className='text-cont'>
-            <h2>Search Page</h2>
+        <div className='text-cont search'>
+            <h2>Find your perfect recipe</h2>
             <div>
                 <input type="text" name="search" id="searchbar" placeholder='Search by title...' value={search} onChange={returnResults} />
             </div>

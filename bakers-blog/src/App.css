@@ -46,6 +46,15 @@ button:hover {
   padding: 10px;
 }
 
+.about {
+  max-width: 1000px;
+}
+
+.about img {
+  height: 200px;
+  width: auto;
+}
+
 
 #docs {
   @media (max-width: 1024px) {

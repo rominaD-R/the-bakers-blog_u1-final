@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router';
 
 export default function Tag( { tag } ) {
   return (
-    <Link to={`types`}>
+    <Link to={`/types/${tag}`}>
         <button className='tag-btn'>
             {tag}
         </button>

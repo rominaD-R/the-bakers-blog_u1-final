@@ -6,6 +6,10 @@
     font-size: 18px;
 }
 
+.text-cont.search h2 {
+    text-align: center;
+}
+
 .search-bottom {
     display: flex;
     margin-top: 24px;
@@ -22,4 +26,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
+}
+
+@media screen and (max-width: 800px) {
+    .filters {
+        display: none;
+    }
 }
