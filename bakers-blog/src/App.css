@@ -11,6 +11,7 @@
 }
 
 button {
+  cursor: pointer;
   background-color: #ECD69C;
   color: #60282C;
   padding: 8px 14px;
@@ -23,6 +24,20 @@ button:hover {
   transition: 0.4s;
   background-color: #f2cd6f;
   color: #77292f;
+}
+
+.tag-btn {
+  cursor: pointer;
+  background-color: #562312;
+  /* color: hsl(45, 100%, 96%); */
+  color: #f2cd6f;
+  padding: 5px 8px;
+  margin-right: 6px;
+}
+
+.tag-btn:hover {
+  background-color: #60282C;
+  color: hsl(45, 100%, 96%);
 }
 
 .text-cont {

@@ -1,0 +1,25 @@
+#searchbar {
+    width: 100%;
+    border: none;
+    border-bottom: 2px #562312 solid;
+    padding: 14px;
+    font-size: 18px;
+}
+
+.search-bottom {
+    display: flex;
+    margin-top: 24px;
+    gap: 24px;
+    height: 100%;
+}
+
+.filters {
+    width: 500px;
+    background-color: grey;
+}
+
+#resultsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
