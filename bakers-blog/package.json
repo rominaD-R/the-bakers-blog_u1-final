@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "react-scripts start",
     "build": "vite build",
     "lint": "eslint .",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "preview": "vite preview"
   },
   "dependencies": {
