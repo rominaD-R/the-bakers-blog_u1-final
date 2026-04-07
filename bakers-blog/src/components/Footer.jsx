@@ -14,7 +14,8 @@ function Footer() {
             <div className="footer-links">
                 <a><Link to="/">Home</Link></a>
                 <a><Link to="search">Search</Link></a>
-                <a><Link to="/types">Types</Link></a>
+                {/* <a><Link to="/types">Types</Link></a> */}
+                <a><Link to="/about">About</Link></a>
             </div>
         </div>
     </div>

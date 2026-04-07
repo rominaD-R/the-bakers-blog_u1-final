@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: 'Red Hat Display';
   background-color: hsl(45, 100%, 96%);
+  /* min-height: 100vh; */
 }
 
 
