@@ -10,7 +10,7 @@ function Types() {
     const tagResults = recipeMockData.filter((recipe) => recipe.tags.includes(tag) == true);
 
     return (
-        <div>
+        <div className='text-cont types'>
             <h2>Results for {tag}</h2>
             <div>
                 {tagResults.map((recipe) => <RecipeCard recipe={recipe} />)}

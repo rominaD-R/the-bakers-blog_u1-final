@@ -34,6 +34,7 @@
 
 .two-col div:first-child {
     border-right: 1px #562312 solid;
+    padding-right: 10px;
 }
 
 .two-col h4 {
