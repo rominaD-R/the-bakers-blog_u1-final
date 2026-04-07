@@ -9,19 +9,13 @@ export default function IndividualRecipe() {
     let currentRecipe = recipeMockData.filter((item) => item.id == id);
     currentRecipe = currentRecipe[0];
 
-    console.log(id);
-    console.log(currentRecipe);
-
     const [commentData, setCommentData] = useState([...currentRecipe.comments]);
 
-
+    // FUNCTION TO ADD COMMENT ON INDIVIDUAL RECIPES
     const addComment = (e) => {
         e.preventDefault();
-        // const { name, value } = e.target; 
         const currentComment = document.getElementById("commentText").value;
-        console.log("Comment added:  " + currentComment);
         setCommentData([...commentData, currentComment]);
-        console.log(commentData);
     }
 
     return (
