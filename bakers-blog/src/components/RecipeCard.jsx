@@ -10,12 +10,12 @@ export default function RecipeCard( { recipe } ) {
             <img src={recipe.mainImage} alt={recipe.title} />
         </div>
       </Link>
-        <div className='recipe-card-text'>
-          <Link className='link-recipe' to={`/recipe/${recipe.id}`}>
-              <h4>{recipe.title}</h4>
-          </Link>
-            {recipe.tags.map((tag) => <Tag tag={tag} />)}
-        </div>
+      <div className='recipe-card-text'>
+        <Link className='link-recipe' to={`/recipe/${recipe.id}`}>
+          <h4>{recipe.title}</h4>
+        </Link>
+        {recipe.tags.map((tag) => <Tag tag={tag} />)}
+      </div>
     </div>
   )
 }

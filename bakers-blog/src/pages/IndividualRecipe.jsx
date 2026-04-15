@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useParams, Link } from 'react-router';
 import { recipeMockData } from '../data/recipes'
+import CommentSection from '../components/CommentSection';
 import './IndividualRecipe.css'
 
 export default function IndividualRecipe() {
@@ -44,7 +45,9 @@ export default function IndividualRecipe() {
                     {currentRecipe.steps.map((item) => <li>{item}</li>)}
                 </ol>
             </div>
-            <div className='comments-section'>
+            
+            {/* Try refactoring these comment section to a seperate component */}
+            {/* <div className='comments-section'>
                 <hr />
                 <h4>Comments</h4>
                 {commentData.map((comment) => <div className='comment'>{comment}</div>)}
@@ -55,7 +58,8 @@ export default function IndividualRecipe() {
                         <button onClick={addComment} id='submitComment'>Post Comment</button>
                     </div>                    
                 </form>
-            </div>
+            </div> */}
+            <CommentSection comments={commentData} onAdd={addComment} />
         </div>
     )
 }

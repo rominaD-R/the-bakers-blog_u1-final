@@ -6,4 +6,7 @@ Rome's Unit 1 project
 
 TAI NOTES 4/7/2026
 
-SEARCH BAR FIX CAPS LOCK
+For reuseable button component, just make a "contact me" that expands and shows my info
+
+- make a contact page for the Form contact
+- Put contact info in a table!

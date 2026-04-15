@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Routes, Route, Link } from 'react-router';
+import ContactButton from "./ContactButton";
 import './css/Footer.css'
 
 function Footer() {
@@ -16,6 +17,7 @@ function Footer() {
                 <a><Link to="search">Search</Link></a>
                 {/* <a><Link to="/types">Types</Link></a> */}
                 <a><Link to="/about">About</Link></a>
+                <ContactButton />
             </div>
         </div>
     </div>
