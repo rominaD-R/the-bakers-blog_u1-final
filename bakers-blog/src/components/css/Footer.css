@@ -30,3 +30,13 @@ p {
     margin: 0 auto;
     gap: 60px;
 }
+
+@media screen and (max-width: 800px) {
+    .footer-cont {
+        width: 100%;
+        min-width: 100px;
+        min-width: none;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}

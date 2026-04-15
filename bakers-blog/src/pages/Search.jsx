@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion, MotionConfig } from "motion/react"
 import RecipeCard from '../components/RecipeCard';
 import './Search.css'
 import { recipeMockData } from '../data/recipes'
@@ -29,7 +30,9 @@ function Search() {
                     FILTERS HERE
                 </div>
                 <div id='resultsDiv'>
-                    {results.map((recipe) => <RecipeCard recipe={recipe} />)}
+                    <MotionConfig transition={{ duration: 0.4, ease: "easeInOut" }}>
+                        {results.map((recipe) => <RecipeCard recipe={recipe} />)}
+                    </MotionConfig>
                 </div>
             </div>
         </div>
