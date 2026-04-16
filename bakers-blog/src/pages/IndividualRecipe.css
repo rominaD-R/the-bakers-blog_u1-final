@@ -72,6 +72,10 @@ ol li {
     resize: none;
 }
 
+#submitComment {
+    height: 58px;
+}
+
 @media screen and (max-width: 800px) {
     .two-col {
         flex-direction: column;

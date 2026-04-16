@@ -12,9 +12,9 @@ function Search() {
     const returnResults = (e) => {
         let { value } = e.target;
         setSearch(value);
-        let actualResults = recipeMockData.filter((recipe) => recipe.title.toLowerCase().includes(search.toLowerCase()) == true);
+        let actualResults = recipeMockData.filter((recipe) => recipe.title.toLowerCase().includes(search.toLowerCase()) == true);       // if user types an input in all caps or mixed capitilization, then this transforms it to check ONLY if the letters match
         if (value == '') {
-            actualResults = recipeMockData;
+            actualResults = recipeMockData;             // if there's nothing in the search bar, just return all the recipes available
         }
         setResults(actualResults);
     };
@@ -26,13 +26,8 @@ function Search() {
                 <input type="text" name="search" id="searchbar" placeholder='Search by title...' value={search} onChange={returnResults} />
             </div>
             <div className='search-bottom'>
-                <div className='filters'>
-                    FILTERS HERE
-                </div>
                 <div id='resultsDiv'>
-                    <MotionConfig transition={{ duration: 0.4, ease: "easeInOut" }}>
-                        {results.map((recipe) => <RecipeCard recipe={recipe} />)}
-                    </MotionConfig>
+                    {results.map((recipe) => <RecipeCard recipe={recipe} />)}
                 </div>
             </div>
         </div>

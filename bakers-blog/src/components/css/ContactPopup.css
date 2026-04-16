@@ -28,8 +28,25 @@
     background-color: white;
 }
 
+.popup-contact form {
+    margin-bottom: 20px;
+}
+
 .popup-contact h2 {
     color: #60282C;
+}
+
+.popup-contact table {
+    color: #60282C;
+    border: #60282C 2px solid;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.popup-contact th, td {
+    border: #60282C 1px solid;
+    padding: 4px 6px;
 }
 
 label {
