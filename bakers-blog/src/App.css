@@ -57,6 +57,20 @@ button:hover {
   height: 400px;
 }
 
+table {
+  color: #60282C;
+  border: #60282C 2px solid;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: #60282C 1px solid;
+  padding: 4px 6px;
+}
+
 
 #docs {
   @media (max-width: 1024px) {

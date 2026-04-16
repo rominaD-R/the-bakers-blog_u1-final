@@ -22,6 +22,20 @@ export default function About() {
         </p>
         <h3>Have anymore questions?</h3>
         <ContactButton />
+        <table>
+            <tr>
+                <th>Email</th>
+                <td>romina.diazrivero@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Mobile Phone</th>
+                <td>+1 (314) 494-7248</td>
+            </tr>
+            <tr>
+                <th>LinkedIn</th>
+                <td>linkedin.com/in/r-diaz-rivero</td>
+            </tr>
+        </table>
     </div>
   )
 }

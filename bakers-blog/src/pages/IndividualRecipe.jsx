@@ -6,9 +6,9 @@ import './IndividualRecipe.css'
 
 export default function IndividualRecipe() {
 
-    const { id } = useParams();
-    let currentRecipe = recipeMockData.filter((item) => item.id == id);
-    currentRecipe = currentRecipe[0];
+    const { id } = useParams();                                                 // Get ID of recipe from the URL, passed by the RecipeCard that was clicked on
+    let currentRecipe = recipeMockData.filter((item) => item.id == id);         // Find the recipe in the array from the ID
+    currentRecipe = currentRecipe[0];                                           // The currentRecipe returned from line 10 is returned in an array, so this is to make it as a single object
 
     const [commentData, setCommentData] = useState([...currentRecipe.comments]);
 
@@ -17,6 +17,7 @@ export default function IndividualRecipe() {
         e.preventDefault();
         const currentComment = document.getElementById("commentText").value;
         setCommentData([...commentData, currentComment]);
+         document.getElementById("commentText").value = '';
     }
 
     return (
@@ -45,20 +46,7 @@ export default function IndividualRecipe() {
                     {currentRecipe.steps.map((item) => <li>{item}</li>)}
                 </ol>
             </div>
-            
-            {/* Try refactoring these comment section to a seperate component */}
-            {/* <div className='comments-section'>
-                <hr />
-                <h4>Comments</h4>
-                {commentData.map((comment) => <div className='comment'>{comment}</div>)}
-                <form id='commentForm' action="">
-                    <b>Add your comment!</b>
-                    <div>
-                        <textarea name="comment" id="commentText"></textarea>
-                        <button onClick={addComment} id='submitComment'>Post Comment</button>
-                    </div>                    
-                </form>
-            </div> */}
+            {/* Transformed Comment Section from here into a separate component */}
             <CommentSection comments={commentData} onAdd={addComment} />
         </div>
     )
